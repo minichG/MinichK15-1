@@ -10,7 +10,13 @@ namespace GitHub
     {
         static void Main(string[] args)
         {
-            Console.Write("Hello GitHub");
+            int age; 
+            Console.WriteLine("Hello GitHub");
+            Console.WriteLine("Enter your age: ");
+            age = int.Parse(Console.ReadLine());
+            Console.Write("Your age is "+age);
+
+            Console.ReadKey();
         }
     }
 }
